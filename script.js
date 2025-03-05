@@ -10,7 +10,7 @@ async function askQuestion() {
     answerDiv.innerHTML = "Thinking...";
 
     try {
-        const response = await fetch("https://your-backend.vercel.app/api/ask", {  // Replace with your Vercel backend URL
+        const response = await fetch("https://ai-backend-945t-oq3szjfns-rgs-projects-891f288c.vercel.app", {  // Replace with your Vercel backend URL
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
